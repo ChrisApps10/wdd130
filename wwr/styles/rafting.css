@@ -30,7 +30,7 @@ header, main, footer {
 
 h1, h2 {
     font-family: var(--heading-font);
-    color: var(#fff);
+    color: black;
 }
 
 nav, p, section, article {
@@ -63,16 +63,6 @@ article {
     text-align: center;
     opacity: 0.8;
     background-color: var(--accent2-color);
-}
-
-.hero {
-    position: center;
-}
-
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
 }
 
 article img {
