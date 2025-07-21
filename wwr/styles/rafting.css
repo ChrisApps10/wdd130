@@ -9,8 +9,8 @@
 
 header {
     background-color: var(--primary-color);
-    color: #fff;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--secondary-color);
+    font-family: var(--body-font);
     text-align: left;
 }
 
@@ -44,34 +44,43 @@ nav, p, section, article {
     text-decoration: none;
 }
 
-hero img {
-    width: 500px;
+.hero {
+    position: relative;
+    top: -24px;
+    right: 24.2px;
+}
+
+.hero img {
+    display: block;
+    width: 106%;
+    height: auto;
 }
 
 h1 {
     position: absolute;
-    top: 20px;
-    width: 58.35%;
-    padding: 25px;
+    top: 50px;
+    width: 104%;
+    padding: 16px;
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
     color: black;
 }
 
-
 article {
-    position: relative;
-    top: 50px;
+    position: absolute;
+    top: 420px;
     right: 50px;
+    border: 40px;
     padding: 20px;
-    width: 400px;
-    text-align: center;
+    width: 650px;
+    text-align: left;
     opacity: 0.8;
     background-color: var(--accent2-color);
 }
 
-article img {
+.hero article img {
     float: right;
-    width: 200px;
+    width: 150px;
+    opacity: 1;
 }
