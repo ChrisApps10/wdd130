@@ -291,6 +291,11 @@ footer p {
     margin-right: 5px;
 }
 
+.email-notification {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
 .contact-form button[type="submit"] {
     background-color: #007bff;
     color: white;
