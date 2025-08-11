@@ -1,8 +1,8 @@
 :root {
-    --primary-color: #406a86; /* payne’s gray */
-    --secondary-color: #ff914d; /* atomic tangerine */
-    --accent1-color: #abc6d8; /* colombia blue */
-    --accent2-color: #efe1d8; /* champagne pink */
+    --primary-color: #1F3441; /* payne’s gray */
+    --secondary-color: #fdd8c0; /* atomic tangerine */
+    --accent1-color: #83caf9; /* colombia blue */
+    --accent2-color: #ffefe5; /* champagne pink */
     --heading-font: "Merriweather Sans", sans-serif;
     --body-font: "Roboto", sans-serif;
 }
